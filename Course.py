@@ -12,7 +12,7 @@ def ring(time_count:int)->None:
 def Send_Request(Dep,CNum:str)->None:
     course_data = { \
         'Submit':'Display Text Results',
-        'YearTerm':'2016-92',
+        'YearTerm':'2017-14',
         'ShowComments':'on',
         'ShowFinals':'on',
         'Breadth':'ANY',
@@ -49,6 +49,6 @@ def Send_Request(Dep,CNum:str)->None:
 
 
 while True:
-    Send_Request('ARTS','1')
+    Send_Request('ARTS','75')
   #  Send_Request('MATH','121A')
     time.sleep(65)
