@@ -5,8 +5,9 @@ from os import system
 
 
 def ring(time_count:int)->None:
-    for i in range(time_count):
-        system('afplay /System/Library/Sounds/Glass.aiff')
+    # replace with your favorite ringtone
+    #for i in range(time_count):
+        #system('afplay /System/Library/Sounds/Glass.aiff')
 
 
 def Send_Request(Dep,CNum:str)->None:
